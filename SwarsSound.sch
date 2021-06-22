@@ -1317,49 +1317,49 @@ Wire Notes Line width 40 style solid rgb(0, 0, 0)
 $Comp
 L 74xx:74LS125 5F/H
 U 3 1 60E16230
-P 13400 8250
-F 0 "5F/H" H 13400 8567 50  0000 C CNN
-F 1 "74LS125" H 13400 8476 50  0000 C CNN
-F 2 "" H 13400 8250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 13400 8250 50  0001 C CNN
-	3    13400 8250
+P 13675 8400
+F 0 "5F/H" H 13675 8717 50  0000 C CNN
+F 1 "74LS125" H 13675 8626 50  0000 C CNN
+F 2 "" H 13675 8400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 13675 8400 50  0001 C CNN
+	3    13675 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS125 5F/H
 U 2 1 60E1786D
-P 13400 9150
-F 0 "5F/H" H 13400 9467 50  0000 C CNN
-F 1 "74LS125" H 13400 9376 50  0000 C CNN
-F 2 "" H 13400 9150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 13400 9150 50  0001 C CNN
-	2    13400 9150
+P 13675 9300
+F 0 "5F/H" H 13675 9617 50  0000 C CNN
+F 1 "74LS125" H 13675 9526 50  0000 C CNN
+F 2 "" H 13675 9300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 13675 9300 50  0001 C CNN
+	2    13675 9300
 	1    0    0    -1  
 $EndComp
-Text GLabel 13100 8250 0    60   Input ~ 0
+Text GLabel 13375 8400 0    60   Input ~ 0
 MAINFLAG
-Text GLabel 13100 9150 0    60   Input ~ 0
+Text GLabel 13375 9300 0    60   Input ~ 0
 SOUNDFLAG
 Wire Wire Line
-	13350 9150 13100 9150
-Text GLabel 13700 8250 2    60   Input ~ 0
+	13625 9300 13375 9300
+Text GLabel 13975 8400 2    60   Input ~ 0
 PD7
 Wire Wire Line
-	13400 8500 13400 8650
+	13675 8650 13675 8800
 Wire Wire Line
-	13400 8650 12375 8650
-Text GLabel 12150 8650 0    60   Input ~ 0
+	13675 8800 12650 8800
+Text GLabel 12425 8800 0    60   Input ~ 0
 ~FLAGREAD
 Wire Wire Line
-	12375 8650 12375 9625
+	12650 8800 12650 9775
 Wire Wire Line
-	12375 9625 13400 9625
+	12650 9775 13675 9775
 Wire Wire Line
-	13400 9625 13400 9400
-Connection ~ 12375 8650
+	13675 9775 13675 9550
+Connection ~ 12650 8800
 Wire Wire Line
-	12375 8650 12150 8650
-Text GLabel 13700 9150 2    60   Input ~ 0
+	12650 8800 12425 8800
+Text GLabel 13975 9300 2    60   Input ~ 0
 PD6
 Wire Notes Line width 40 style solid rgb(0, 0, 0)
 	11225 7500 15200 7500
@@ -1369,4 +1369,6 @@ Wire Notes Line width 40 style solid rgb(0, 0, 0)
 	15200 9975 11225 9975
 Wire Notes Line width 40 style solid rgb(0, 0, 0)
 	11225 9975 11225 7500
+Text Notes 14000 7775 2    100  ~ 20
+Interface Flag Reader
 $EndSCHEMATC
