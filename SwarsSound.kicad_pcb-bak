@@ -1130,18 +1130,18 @@
   )
 
   (module Star_Wars_Vector_PCB:GenericComp (layer F.Cu) (tedit 5F770381) (tstamp 60DA8322)
-    (at -52.7215 156.318499)
+    (at 106.68 145.415 270)
     (path /60DDF146)
-    (fp_text reference R39 (at 0 -9.525 90 unlocked) (layer F.SilkS)
+    (fp_text reference R39 (at 0 8.255 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 12K (at -1.27 -0.635 90) (layer F.Fab) hide
+    (fp_text value 12K (at -1.27 -0.635) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -5.08) (end 0 3.81) (layer F.SilkS) (width 0.254))
-    (pad 2 thru_hole circle (at 0 -6.35) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.35 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 50 SUM))
-    (pad 1 thru_hole circle (at 0 5.08) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 5.08 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 42 "Net-(C48-Pad1)"))
   )
 
@@ -3937,18 +3937,18 @@
   )
 
   (module Star_Wars_Vector_PCB:GenericComp (layer F.Cu) (tedit 5F770381) (tstamp 60DA7D3F)
-    (at -51.6065 205.428499)
+    (at 106.68 147.955 270)
     (path /632FF4C4)
-    (fp_text reference C40 (at 0 -9.525 90 unlocked) (layer F.SilkS)
+    (fp_text reference C40 (at 0 8.255 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1 (at -1.27 -0.635 90) (layer F.Fab) hide
+    (fp_text value 0.1 (at -1.27 -0.635) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -5.08) (end 0 3.81) (layer F.SilkS) (width 0.254))
-    (pad 2 thru_hole circle (at 0 -6.35) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.35 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 29 "Net-(C-4-Pad9)"))
-    (pad 1 thru_hole circle (at 0 5.08) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 5.08 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 36 "Net-(C40-Pad1)"))
   )
 
@@ -3969,18 +3969,18 @@
   )
 
   (module Star_Wars_Vector_PCB:GenericComp (layer F.Cu) (tedit 5F770381) (tstamp 60DA7D31)
-    (at -5.5465 167.338499)
+    (at 106.68 150.495 270)
     (path /632B2BE7)
-    (fp_text reference C38 (at 0 -9.525 90 unlocked) (layer F.SilkS)
+    (fp_text reference C38 (at 0 8.255 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1 (at -1.27 -0.635 90) (layer F.Fab) hide
+    (fp_text value 0.1 (at -1.27 -0.635) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -5.08) (end 0 3.81) (layer F.SilkS) (width 0.254))
-    (pad 2 thru_hole circle (at 0 -6.35) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.35 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 29 "Net-(C-4-Pad9)"))
-    (pad 1 thru_hole circle (at 0 5.08) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 5.08 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 34 "Net-(C38-Pad1)"))
   )
 
@@ -4033,18 +4033,18 @@
   )
 
   (module Star_Wars_Vector_PCB:GenericComp (layer F.Cu) (tedit 5F770381) (tstamp 60DA7D15)
-    (at -5.5465 153.008499)
+    (at 106.68 153.035 270)
     (path /630D01BE)
-    (fp_text reference C34 (at 0 -9.525 90 unlocked) (layer F.SilkS)
+    (fp_text reference C34 (at 0 8.255 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 0.1 (at -1.27 -0.635 90) (layer F.Fab) hide
+    (fp_text value 0.1 (at -1.27 -0.635) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -5.08) (end 0 3.81) (layer F.SilkS) (width 0.254))
-    (pad 2 thru_hole circle (at 0 -6.35) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 0 -6.35 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 29 "Net-(C-4-Pad9)"))
-    (pad 1 thru_hole circle (at 0 5.08) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 5.08 270) (size 1.905 1.905) (drill 1.016) (layers *.Cu *.Mask)
       (net 32 "Net-(C34-Pad1)"))
   )
 
