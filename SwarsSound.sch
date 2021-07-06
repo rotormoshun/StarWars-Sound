@@ -3528,7 +3528,7 @@ Wire Wire Line
 	27150 1950 27375 1950
 Connection ~ 27150 1950
 $Comp
-L SwarsSound-rescue:6116-2K-RAM F/H-1
+L SwarsSound-rescue:6116-2K-RAM-SwarsSound-rescue F/H-1
 U 1 1 6158ABEB
 P 23725 7125
 F 0 "F/H-1" H 23725 7225 50  0000 C CNN
