@@ -975,13 +975,13 @@ Connection ~ 22725 11675
 Connection ~ 23425 11575
 Text GLabel 26150 11525 0    60   Input ~ 0
 AUD
-Text GLabel 26150 12725 0    60   Input ~ 0
+Text GLabel 26150 12450 0    60   Input ~ 0
 AUD
 $Comp
-L Device:R_US R49
+L Device:R_US R48
 U 1 1 6149A659
 P 26300 11525
-F 0 "R49" V 26225 11450 50  0000 L CNN
+F 0 "R48" V 26225 11450 50  0000 L CNN
 F 1 "22K" V 26375 11450 50  0000 L CNN
 F 2 "Star_Wars_Vector_PCB:GenericComp" V 26340 11515 50  0001 C CNN
 F 3 "~" H 26300 11525 50  0001 C CNN
@@ -989,10 +989,10 @@ F 3 "~" H 26300 11525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R48
+L Device:R_US R49
 U 1 1 6149B132
 P 26300 11250
-F 0 "R48" V 26225 11175 50  0000 L CNN
+F 0 "R49" V 26225 11175 50  0000 L CNN
 F 1 "22K" V 26375 11175 50  0000 L CNN
 F 2 "Star_Wars_Vector_PCB:GenericComp" V 26340 11240 50  0001 C CNN
 F 3 "~" H 26300 11250 50  0001 C CNN
@@ -1056,8 +1056,6 @@ Wire Wire Line
 Connection ~ 24025 10900
 Wire Wire Line
 	24875 11475 24775 11475
-Wire Wire Line
-	25550 12450 26150 12450
 $Comp
 L Device:R_US R50
 U 1 1 61648CCE
@@ -4016,8 +4014,6 @@ SELF-TEST
 Wire Wire Line
 	25550 11250 25550 11475
 Connection ~ 25550 11475
-Wire Wire Line
-	25550 11475 25550 12450
 Connection ~ 24875 11475
 $Comp
 L power:GND #PWR0208
@@ -5371,9 +5367,9 @@ Wire Wire Line
 Connection ~ 28300 11750
 Wire Wire Line
 	28300 11750 28300 11975
-Text GLabel 27275 15250 2    50   Input ~ 0
-RT_AUD
 Text GLabel 27275 15350 2    50   Input ~ 0
+RT_AUD
+Text GLabel 27275 15250 2    50   Input ~ 0
 LT_AUD
 NoConn ~ 26075 15950
 $Comp
@@ -5939,4 +5935,8 @@ F 3 "~" H 28750 15900 50  0001 C CNN
 	1    28750 15900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	26150 12725 25550 12725
+Wire Wire Line
+	25550 11475 25550 12725
 $EndSCHEMATC
