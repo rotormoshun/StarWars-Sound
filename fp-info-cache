@@ -1,4 +1,4 @@
-17063018545104538
+17052399375733754
 Asteroids
 2N6044
 
@@ -81,7 +81,7 @@ Edge_Connector
 
 
 0
-88
+44
 44
 Asteroids
 Electrolytic1
@@ -69426,26 +69426,12 @@ Ind
 2
 2
 Star_Wars_Main_PCB
-SWSnd parts pos
-
-
-0
-0
-0
-Star_Wars_Main_PCB
 Y
 
 
 0
 3
 3
-Star_Wars_Vector_PCB
-Aud_Con_7
-
-
-0
-6
-6
 Star_Wars_Vector_PCB
 CapBrown
 
@@ -69455,13 +69441,6 @@ CapBrown
 2
 Star_Wars_Vector_PCB
 CapElec2
-
-
-0
-2
-2
-Star_Wars_Vector_PCB
-CapElec3
 
 
 0
@@ -69579,13 +69558,6 @@ MountingHole
 0
 1
 1
-Star_Wars_Vector_PCB
-MountingHole2
-
-
-0
-0
-0
 Star_Wars_Vector_PCB
 PotBlk
 
