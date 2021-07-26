@@ -2946,11 +2946,11 @@ Text GLabel 17250 2150 0    60   Input ~ 0
 SA14
 Text GLabel 17250 2350 0    60   Input ~ 0
 SA13
-Text GLabel 19125 7600 2    60   Input ~ 0
-~CI\O2
 Text GLabel 19125 7400 2    60   Input ~ 0
+~CI\O2
+Text GLabel 19125 7600 2    60   Input ~ 0
 ~CI\O1
-Text GLabel 19125 7200 2    60   Input ~ 0
+Text GLabel 19125 7800 2    60   Input ~ 0
 ~CI\O0
 Text GLabel 18950 3950 2    60   Input ~ 0
 ~PIA
@@ -2962,7 +2962,7 @@ Text GLabel 18950 1950 2    60   Input ~ 0
 ~SROM1
 Text GLabel 18950 2150 2    60   Input ~ 0
 ~SROM0
-Text GLabel 19125 7800 2    60   Input ~ 0
+Text GLabel 19125 7200 2    60   Input ~ 0
 ~CI\O3
 Wire Wire Line
 	18950 2550 18950 2950
