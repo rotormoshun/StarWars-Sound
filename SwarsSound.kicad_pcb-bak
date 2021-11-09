@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 76)
+    (drawings 77)
     (tracks 2856)
     (zones 0)
     (modules 168)
@@ -4308,7 +4308,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -10.16 0) (end 10.16 0) (layer F.SilkS) (width 0.254))
-    (fp_text user + (at -13.97 0 90) (layer F.SilkS)
+    (fp_text user + (at -13.335 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 thru_hole rect (at -11.43 0 90) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
@@ -4763,6 +4763,9 @@
       (net 122 SA6))
   )
 
+  (gr_text + (at 68.58 153.035) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_poly (pts (xy 295.91 160.02) (xy 293.37 160.02) (xy 293.37 158.75) (xy 295.91 158.75)) (layer F.SilkS) (width 0.1))
   (gr_poly (pts (xy 207.645 43.18) (xy 206.375 43.18) (xy 206.375 40.64) (xy 207.645 40.64)) (layer F.SilkS) (width 0.1))
   (gr_poly (pts (xy 71.12 99.695) (xy 68.58 99.695) (xy 68.58 98.425) (xy 71.12 98.425)) (layer F.SilkS) (width 0.1))

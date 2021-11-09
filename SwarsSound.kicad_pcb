@@ -1390,7 +1390,7 @@
   (module Star_Wars_Vector_PCB:GenericComp (layer F.Cu) (tedit 5F770381) (tstamp 60DA8399)
     (at 76.2 92.71 180)
     (path /617B0F17)
-    (fp_text reference R56 (at 0 -9.525 270 unlocked) (layer F.SilkS)
+    (fp_text reference R56 (at 0 8.255 90 unlocked) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2.2K (at -1.27 -0.635 90) (layer F.Fab) hide
