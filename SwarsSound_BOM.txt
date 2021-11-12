@@ -7,7 +7,7 @@ C43, C45, C54, C55, C59, C60, C61, C31, C32, C34,
 C36
 
 C46, C48, C49, C50, C56, C57, C58                       7       0.0027uf        Digikey 478-11573-1-ND
-C13, C14, C15, C47, C53		                         5       100uf 50V       Digikey 1572-1309-ND
+C13, C14, C15, C47, C53		                            5       100uf 50V       Digikey 1572-1309-ND
 C29, C33, C35, C39                                      4       1000pf          Digikey 1216PHCT-ND
 C44                                                     1       0.01uf          Digikey 399-4452-1-ND
 C51                                                     1       0.47uf          Digikey 1572-1461-ND‎
@@ -20,7 +20,7 @@ P2                                                      1       7 pin con       
 Q1, Q2                                                  2       2N3906          Digikey 2N3906TAFSCT-ND
 Q3, Q4                                                  2       2N3904          Digikey 2N3904TAFSCT-ND
 
-R1,  R4,  R7,  R12, R15, R20, R22, R24, R26, R28        10      1K              Digikey 1.0KQBK-ND
+R1,  R4,  R7,  R12, R15, R20, R22, R24, R26             9       1K              Digikey 1.0KQBK-ND
 R2,  R3,  R5,  R6,  R10, R13, R17, R37                  8       10K             Digikey 10KQBK-ND
 R30, R39, R40, R42, R46, R47                            6       12K             Digikey 12KQBK-ND
 R21, R23, R50, R54, R55                                 5       47K             Digikey 47KQBK-ND
@@ -32,7 +32,7 @@ R25, R27                                                2       82K             
 R33, R34                                                2       4.7K            Digikey 4.7KQBK-ND
 R31, R32                                                2       560K            Digikey 560KQBK-ND
 R18                                                     1       1.8K            Digikey 1.8KQBK-ND
-R19                                                     1       100K            Digikey 100KQBK-ND
+R19, R28                                                2       100K            Digikey 100KQBK-ND
 R29                                                     1       15K             Digikey 15KQBK-ND
 R36                                                     1       15              Digikey 15QBK-ND
 R38                                                     1       470             Digikey 470QBK-ND

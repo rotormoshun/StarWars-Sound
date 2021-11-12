@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\work\StarWars-Sound\SwarsSound.sch)
-    (date "7/27/2021 8:44:51 PM")
+    (date "11/11/2021 9:36:43 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -838,7 +838,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 633930DA))
     (comp (ref R28)
-      (value 1000)
+      (value 100k)
       (footprint Star_Wars_Vector_PCB:GenericComp)
       (datasheet ~)
       (libsource (lib Device) (part R_US) (description "Resistor, US symbol"))
